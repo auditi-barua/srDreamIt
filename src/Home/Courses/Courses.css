@@ -1,0 +1,32 @@
+.devider {
+    width: 200px;
+    margin: auto;
+}
+
+.devider span {
+    width: 75px;
+    height: 10px;
+    background: transparent;
+    border-bottom: 4px solid #ddd;
+    display: block;
+   
+}
+.def{
+    border-bottom: 4px solid #62328E !important;
+}
+.priview{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -50%;
+    /* left: 32%; */
+    z-index: 1;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.text_top{
+    position: relative;
+    top: -10%;
+    left: 0;
+    z-index: 1;
+}

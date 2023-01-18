@@ -1,0 +1,33 @@
+
+.navbar{
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+.active{
+    transform: scaleX(1);
+}
+
+ul.subMenu2 {
+    position: absolute;
+    padding: 10px;
+    background: white;
+    z-index: 1;
+    margin-top: 10px;
+    opacity: .8;
+    width: 200px;
+    transition: 0.6s;
+    transform: scaleY(.0);
+    transform-origin: top;
+    visibility: hidden;
+}
+ul.subMenu2 li {
+    padding: 10px;
+    background: white;
+    
+}
+.subMenu:hover .subMenu2 {
+    transform: scaleY(1);
+    transform-origin: top;
+    visibility: visible;
+}

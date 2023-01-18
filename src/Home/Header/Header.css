@@ -1,0 +1,8 @@
+.banner{
+    background-image: url('../../assests/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+    /* opacity: 40%; */
+    /* filter: brightness(40%); */
+}
