@@ -3,6 +3,10 @@ import About from "../About/About";
 import Agency from "../Agency/Agency";
 import BlogP from "../BlogP/BlogP";
 import ContactUs from "../ContactUs/ContactUs";
+import CourseDetails from "../CourseDetails/CourseDetails";
+import Description from "../CourseDetails/Description";
+import Lessons from "../CourseDetails/Lessons";
+import Reviews from "../CourseDetails/Reviews";
 import CourseP from "../CoursesP/CourseP";
 import Freelanchers from "../Freelanchers/Freelanchers";
 import Home from "../Home/Home";
@@ -57,6 +61,22 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <ContactUs/>
+            },
+            {
+                path: '/coursedetails',
+                element: <CourseDetails/>
+            },
+            {
+                path: '/description',
+                element:<Description/>
+            },
+            {
+                path: '/lessons',
+                element:<Lessons/>
+            },
+            {
+                path: '/reviews',
+                element: <Reviews/>
             }
         ]
     },

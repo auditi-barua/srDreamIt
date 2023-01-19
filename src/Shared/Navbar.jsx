@@ -60,21 +60,21 @@ const Navbar = ({ children }) => {
                             {/* {component} */}
                         </ul>
                     </div>
-                    <div className={`${show ? 'active' : undefined} absolute z-10 bg-white navbar md:hidden w-[140px] border rounded-sm mt-8`}>
+                    <div className={`${show ? 'active' : undefined} absolute z-10 bg-white navbar md:hidden w-[140px] border rounded-sm mt-8`}onclick={handle_click}>
                         <ul className='z-0'>
-                            <li className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/'>Home</Link></li>
-                            <li className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/about'>About</Link></li>
-                            <li className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/course'>Courses</Link></li>
-                            <li className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/agency'>Agency</Link></li>
-                            <li className='text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/freelanchers'>Sucsess storys</Link></li>
-                            <li className='text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/contact'>Contact Us</Link></li>
+                            <li onClick={handle_click} className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/'>Home</Link></li>
+                            <li onClick={handle_click} className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/about'>About</Link></li>
+                            <li onClick={handle_click} className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/course'>Courses</Link></li>
+                            <li onClick={handle_click} className='border-b border-slate-300 text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/agency'>Agency</Link></li>
+                            <li onClick={handle_click} className='text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/freelanchers'>Sucsess storys</Link></li>
+                            <li onClick={handle_click} className='text-black py-2 px-4 cursor-pointer hover:bg-slate-200'><Link to='/contact'>Contact Us</Link></li>
                             {user?.uid ?
                                 <>
                                     <li><button className='hover:opacity-70 button text-black yellow normal-case font-normal' onClick={handleLogOut}>Sign out</button></li>
                                 </>
                                 :
 
-                                <button className='button text-black yellow w-full'><Link to='/login'>Login</Link></button>}
+                                <button onClick={handle_click} className='button text-black yellow w-full'><Link to='/login'>Login</Link></button>}
 
                         </ul>
                     </div>

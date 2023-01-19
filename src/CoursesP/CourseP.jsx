@@ -49,7 +49,7 @@ const CourseP = () => {
                                     <div className='flex items-center'><FaRegClock /><span>60</span></div>
                                     <div className='flex items-center'><FaLaptop /><span>30</span></div>
                                 </div>
-                                <Link className='border-2 font-semibold rounded-full px-3 flex items-center gap-2 border-purple-700 text-purple-700 hover:text-white hover:bg-purple-700 transition-all'>Course Details <FaLongArrowAltRight /></Link>
+                                <Link className='border-2 font-semibold rounded-full px-3 flex items-center gap-2 border-purple-700 text-purple-700 hover:text-white hover:bg-purple-700 transition-all' to='/coursedetails'>Course Details <FaLongArrowAltRight /></Link>
                             </div>
                         </div>
                     </div>
