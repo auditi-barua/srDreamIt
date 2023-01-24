@@ -6,7 +6,7 @@ import ContactUs from "../ContactUs/ContactUs";
 import CourseDetails from "../CourseDetails/CourseDetails";
 import Description from "../CourseDetails/Description";
 import Lessons from "../CourseDetails/Lessons";
-import Reviews from "../CourseDetails/Reviews";
+import Reviews from "../CourseDetails/Review/Reviews";
 import CourseP from "../CoursesP/CourseP";
 import Freelanchers from "../Freelanchers/Freelanchers";
 import Home from "../Home/Home";

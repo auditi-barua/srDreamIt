@@ -2,6 +2,7 @@ import React from 'react';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Lessons from './Lessons';
+import Reviews from './Review/Reviews';
 
 const Description = () => {
     return (
@@ -84,7 +85,8 @@ const Description = () => {
                 <p className='text-xl ml-12'>    ✔️এস আর ড্রিম আইটির শিক্ষার্থীরা গত ১ বছরে<span className='text-purple-600 underline'> আয় করেছে পায় ৬০০,০০০ ডলারের বেশি</span></p><br/>
                 <p className='text-xl ml-12'>✔️শিক্ষার্থীরা আমাদের ট্রেইনিং এবং সাপোর্ট সিস্টেম নিয়ে ১০০% স্যাটিসফাইড যা ফেসবুক পেজ, ফেসবুক গ্রুপ, গুগল রিভিউ কিংবা ওয়েবসাইটে ভিজিট করলেই বুঝতে পারবেন। </p><br />
                
-                <Lessons/>
+                        <Lessons />
+                        <Reviews/>
          </div>
             <div className=' pl-16 pt-5 pb-5 bg-scroll '>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/w7iKgD32Jjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
